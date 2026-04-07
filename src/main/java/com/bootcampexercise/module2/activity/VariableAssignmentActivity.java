@@ -1,8 +1,7 @@
 package com.bootcampexercise.module2.activity;
-
 public class VariableAssignmentActivity {
     /**
-     * @author me
+     * @author Markuss
      * @purpose declare, assign and print a variable
      */
     static void main() {
