@@ -7,10 +7,10 @@ public abstract class Shape {
     public abstract double calculatePerimeter();
 
     public void setColor(String c) {
-        color = c;
+        this.color = c;
     }
 
     public String getColor() {
-        return color;
+        return this.color;
     }
 }

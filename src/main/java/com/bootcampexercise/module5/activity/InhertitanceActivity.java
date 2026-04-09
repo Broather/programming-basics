@@ -1,6 +1,15 @@
 package com.bootcampexercise.module5.activity;
 
 public class InhertitanceActivity {
+    /**
+     * @author Markuss
+     * @purpose print Employee and Person object attributes
+     * @output -----------------------------
+     * Employee(name = Shawn Cun, age = 32, title = Developer, salary = 70000.000000)
+     * Person(age = 21, name = Sarah Johnson)
+     *
+     * Process finished with exit code 0
+     */
     static void main() {
 
         // Create Person object p. Write code to and set name of Person as Sarah Johnson
