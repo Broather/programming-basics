@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ListActivity {
+    /**
+     * @author Markuss
+     * @purpose call ArrayList methods to manipulate elements within the array
+     * @output [John, Bob, Carl]
+     *
+     * Process finished with exit code 0
+     */
     static void main() {
         //TODO: 1 - Write code to create a list of names. Use ArrayList.
         ArrayList<String> arr = new ArrayList<>(Arrays.asList("John", "Bob", "Carl"));
