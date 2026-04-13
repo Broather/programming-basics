@@ -1,5 +1,9 @@
 package com.bootcampexercise.module10;
 
+import com.bootcampexercise.module8.Student;
+
+import java.util.ArrayList;
+
 /**
  * @author Markuss
  * @purpose an Employee class which inherits attributes and methods from Person
@@ -45,5 +49,14 @@ public class Employee extends Person {
     public void introduce() {
         super.introduce();
         System.out.printf("I work as a %s at %s and my salary is %.2f\n", this.getJobTitle(), this.getCompany(), this.getSalary());
+    }
+    public static Employee getHighestPaidEmp(ArrayList<Employee> el){
+        Employee result = el.getFirst();
+        for (Employee e : el) {
+            if (e.getSalary() > result.getSalary()) {
+                result = e;
+            }
+        }
+        return result;
     }
 }
