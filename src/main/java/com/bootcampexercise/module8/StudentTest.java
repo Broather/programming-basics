@@ -3,8 +3,8 @@ package com.bootcampexercise.module8;
 import junit.framework.TestCase;
 
 public class StudentTest extends TestCase {
-
     private Student student;
+
     public void setUp() throws Exception {
         super.setUp();
         student = new Student(1212, "James", 45.23);

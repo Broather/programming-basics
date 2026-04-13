@@ -4,6 +4,7 @@ import junit.framework.TestCase;
 
 public class PersonTest extends TestCase {
     private Person person;
+
     public void setUp() throws Exception {
         super.setUp();
         person = new Person();
